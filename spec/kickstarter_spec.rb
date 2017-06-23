@@ -1,3 +1,4 @@
+__END__
 describe 'Backer - ::new' do
   it 'takes a name on initialization' do
     backer = Backer.new("Avi")
