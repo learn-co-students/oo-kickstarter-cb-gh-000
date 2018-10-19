@@ -1,3 +1,4 @@
+=begin
 describe 'Backer - ::new' do
   it 'takes a name on initialization' do
     backer = Backer.new("Avi")
@@ -62,3 +63,4 @@ describe 'Project - More Advanced #add_backer' do
     expect(arel.backed_projects).to include(ropes)
   end
 end
+=end
